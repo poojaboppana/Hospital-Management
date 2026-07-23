@@ -29,7 +29,7 @@ CREATE TABLE Treatments (
     FOREIGN KEY (patient_id) REFERENCES Patients(patient_id)
 );
 INSERT INTO Patients VALUES
-(1, 'Pooja', 25, 'Male'),
+(1, 'Pooja', 25, 'Female'),
 (2, 'Anita', 30, 'Female'),
 (3, 'Kiran', 40, 'Male');
 
